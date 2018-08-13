@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MainViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/MainViewController" class="dashAnchor"></a>
+    <a title="MainViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (30% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        MainViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalendarAnimatedView.html">CalendarAnimatedView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalendarAnimatedView/LeafView.html">– LeafView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalendarCollectionViewCell.html">CalendarCollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalendarCollectionViewCell/Background.html">– Background</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalendarDate.html">CalendarDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalendarDates.html">CalendarDates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalendarView.html">CalendarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Colors.html">Colors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateEventViewController.html">CreateEventViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateEventViewController/RowType.html">– RowType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Curl.html">Curl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DateFormatters.html">DateFormatters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DatePicker.html">DatePicker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DateTimePicker.html">DateTimePicker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DayView.html">DayView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Deserializer.html">Deserializer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DraggableEventView.html">DraggableEventView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Event.html">Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventCell.html">EventCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventDateTimeCell.html">EventDateTimeCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventDetailCell.html">EventDetailCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventEmptyCell.html">EventEmptyCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventFormatter.html">EventFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventHandleView.html">EventHandleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventListHeaderView.html">EventListHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventListView.html">EventListView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventLocationCell.html">EventLocationCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventMap.html">EventMap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventPeopleCell.html">EventPeopleCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventService.html">EventService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventTitleCell.html">EventTitleCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventToggleCell.html">EventToggleCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Faker.html">Faker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FakerPool.html">FakerPool</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Fonts.html">Fonts</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Images.html">Images</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LayoutSelectorView.html">LayoutSelectorView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LayoutSelectorView/LayoutType.html">– LayoutType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LayoutSelectorView/LayoutSelectorCell.html">– LayoutSelectorCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationService.html">LocationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MainViewController.html">MainViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MonthOverlayCell.html">MonthOverlayCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MonthOverlayView.html">MonthOverlayView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NavigationBars.html">NavigationBars</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NavigationBars/Style.html">– Style</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Random.html">Random</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Settings.html">Settings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Storage.html">Storage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TableViews.html">TableViews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimeIntervals.html">TimeIntervals</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimePicker.html">TimePicker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeatherData.html">WeatherData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeatherDataMultiple.html">WeatherDataMultiple</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeatherForcastResponse.html">WeatherForcastResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeatherIconView.html">WeatherIconView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeatherService.html">WeatherService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeekdayBar.html">WeekdayBar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/_Event.html">_Event</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CurlError.html">CurlError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DateTimePickerPage.html">DateTimePickerPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventAttributes.html">EventAttributes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarViewDelegate.html">CalendarViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DatePickerDelegate.html">DatePickerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DateTimePickerDelegate.html">DateTimePickerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DayViewDelegate.html">DayViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Deserializable.html">Deserializable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DraggableEventViewDelegate.html">DraggableEventViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EventDateTimeCellDelegate.html">EventDateTimeCellDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EventListViewDelegate.html">EventListViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LayoutSelectorViewDelegate.html">LayoutSelectorViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LocationServiceDelegate.html">LocationServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TimePickerDelegate.html">TimePickerDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>MainViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">MainViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UIGestureRecognizerDelegate</span><span class="p">,</span> <span class="kt"><a href="../Protocols/EventListViewDelegate.html">EventListViewDelegate</a></span><span class="p">,</span> <span class="kt"><a href="../Protocols/CalendarViewDelegate.html">CalendarViewDelegate</a></span><span class="p">,</span> <span class="kt"><a href="../Protocols/LayoutSelectorViewDelegate.html">LayoutSelectorViewDelegate</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Main view controller</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC10weekdayBar33_A24000BF9A239B700BB8243528C47444LLAA07WeekdayF0Cv"></a>
+                    <a name="//apple_ref/swift/Property/weekdayBar" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC10weekdayBar33_A24000BF9A239B700BB8243528C47444LLAA07WeekdayF0Cv">weekdayBar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Week day bar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">weekdayBar</span><span class="p">:</span> <span class="kt"><a href="../Classes/WeekdayBar.html">WeekdayBar</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC08calendarC033_A24000BF9A239B700BB8243528C47444LLAA08CalendarC0Cv"></a>
+                    <a name="//apple_ref/swift/Property/calendarView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC08calendarC033_A24000BF9A239B700BB8243528C47444LLAA08CalendarC0Cv">calendarView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calendar view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">calendarView</span><span class="p">:</span> <span class="kt"><a href="../Classes/CalendarView.html">CalendarView</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC09eventListC033_A24000BF9A239B700BB8243528C47444LLAA05EventfC0Cv"></a>
+                    <a name="//apple_ref/swift/Property/eventListView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC09eventListC033_A24000BF9A239B700BB8243528C47444LLAA05EventfC0Cv">eventListView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Event list view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">eventListView</span><span class="p">:</span> <span class="kt"><a href="../Classes/EventListView.html">EventListView</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC07contentC033_A24000BF9A239B700BB8243528C47444LLSo6UIViewCv"></a>
+                    <a name="//apple_ref/swift/Property/contentView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC07contentC033_A24000BF9A239B700BB8243528C47444LLSo6UIViewCv">contentView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Content view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">contentView</span><span class="p">:</span> <span class="kt">UIView</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC14layoutSelector33_A24000BF9A239B700BB8243528C47444LLAA06LayoutfC0Cv"></a>
+                    <a name="//apple_ref/swift/Property/layoutSelector" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC14layoutSelector33_A24000BF9A239B700BB8243528C47444LLAA06LayoutfC0Cv">layoutSelector</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Layout selector</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">layoutSelector</span><span class="p">:</span> <span class="kt"><a href="../Classes/LayoutSelectorView.html">LayoutSelectorView</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC024layoutSelectorBackgroundC033_A24000BF9A239B700BB8243528C47444LLSo6UIViewCv"></a>
+                    <a name="//apple_ref/swift/Property/layoutSelectorBackgroundView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC024layoutSelectorBackgroundC033_A24000BF9A239B700BB8243528C47444LLSo6UIViewCv">layoutSelectorBackgroundView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Layout selector background</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">layoutSelectorBackgroundView</span><span class="p">:</span> <span class="kt">UIView</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC03dayC033_A24000BF9A239B700BB8243528C47444LLAA03DayC0Cv"></a>
+                    <a name="//apple_ref/swift/Property/dayView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC03dayC033_A24000BF9A239B700BB8243528C47444LLAA03DayC0Cv">dayView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Day view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">dayView</span><span class="p">:</span> <span class="kt"><a href="../Classes/DayView.html">DayView</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC016calendarAnimatedC033_A24000BF9A239B700BB8243528C47444LLAA08CalendarfC0Cv"></a>
+                    <a name="//apple_ref/swift/Property/calendarAnimatedView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC016calendarAnimatedC033_A24000BF9A239B700BB8243528C47444LLAA08CalendarfC0Cv">calendarAnimatedView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calendar animated</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">calendarAnimatedView</span><span class="p">:</span> <span class="kt"><a href="../Classes/CalendarAnimatedView.html">CalendarAnimatedView</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC20layoutSelectorLayout33_A24000BF9A239B700BB8243528C47444LLXev"></a>
+                    <a name="//apple_ref/swift/Property/layoutSelectorLayout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC20layoutSelectorLayout33_A24000BF9A239B700BB8243528C47444LLXev">layoutSelectorLayout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Layout for layout selector</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">layoutSelectorLayout</span><span class="p">:</span> <span class="kt">LayoutBuilder</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC19layoutSelectorShown33_A24000BF9A239B700BB8243528C47444LLSbv"></a>
+                    <a name="//apple_ref/swift/Property/layoutSelectorShown" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC19layoutSelectorShown33_A24000BF9A239B700BB8243528C47444LLSbv">layoutSelectorShown</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Layout selector shown</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">layoutSelectorShown</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC14calendarLayout33_A24000BF9A239B700BB8243528C47444LLXev"></a>
+                    <a name="//apple_ref/swift/Property/calendarLayout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC14calendarLayout33_A24000BF9A239B700BB8243528C47444LLXev">calendarLayout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Layout for calendar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">calendarLayout</span><span class="p">:</span> <span class="kt">LayoutBuilder</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC010isCalendarC8Expanded33_A24000BF9A239B700BB8243528C47444LLSbv"></a>
+                    <a name="//apple_ref/swift/Property/isCalendarViewExpanded" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC010isCalendarC8Expanded33_A24000BF9A239B700BB8243528C47444LLSbv">isCalendarViewExpanded</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Is calendar view expanded</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">isCalendarViewExpanded</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC15locationService33_A24000BF9A239B700BB8243528C47444LLAA08LocationF0Cv"></a>
+                    <a name="//apple_ref/swift/Property/locationService" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC15locationService33_A24000BF9A239B700BB8243528C47444LLAA08LocationF0Cv">locationService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Location service</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">locationService</span><span class="p">:</span> <span class="kt"><a href="../Classes/LocationService.html">LocationService</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC014currentContentC5Child33_A24000BF9A239B700BB8243528C47444LLSo6UIViewCSgv"></a>
+                    <a name="//apple_ref/swift/Property/currentContentViewChild" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC014currentContentC5Child33_A24000BF9A239B700BB8243528C47444LLSo6UIViewCSgv">currentContentViewChild</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Current content view child</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">currentContentViewChild</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC8location33_A24000BF9A239B700BB8243528C47444LLSo10CLLocationCSgv"></a>
+                    <a name="//apple_ref/swift/Property/location" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC8location33_A24000BF9A239B700BB8243528C47444LLSo10CLLocationCSgv">location</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Location</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">location</span><span class="p">:</span> <span class="kt">CLLocation</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC14weatherForcast33_A24000BF9A239B700BB8243528C47444LLAA07WeatherF8ResponseCSgv"></a>
+                    <a name="//apple_ref/swift/Property/weatherForcast" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC14weatherForcast33_A24000BF9A239B700BB8243528C47444LLAA07WeatherF8ResponseCSgv">weatherForcast</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Weather forecast</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">weatherForcast</span><span class="p">:</span> <span class="kt"><a href="../Classes/WeatherForcastResponse.html">WeatherForcastResponse</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC5dates33_A24000BF9A239B700BB8243528C47444LLAA13CalendarDatesCv"></a>
+                    <a name="//apple_ref/swift/Property/dates" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC5dates33_A24000BF9A239B700BB8243528C47444LLAA13CalendarDatesCv">dates</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Dates</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">dates</span><span class="p">:</span> <span class="kt"><a href="../Classes/CalendarDates.html">CalendarDates</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC12selectedDate33_A24000BF9A239B700BB8243528C47444LL10Foundation0F0VSgv"></a>
+                    <a name="//apple_ref/swift/Property/selectedDate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC12selectedDate33_A24000BF9A239B700BB8243528C47444LL10Foundation0F0VSgv">selectedDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Selected date</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">selectedDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC10layoutType33_A24000BF9A239B700BB8243528C47444LLAA014LayoutSelectorC0C0mF0Ov"></a>
+                    <a name="//apple_ref/swift/Property/layoutType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC10layoutType33_A24000BF9A239B700BB8243528C47444LLAA014LayoutSelectorC0C0mF0Ov">layoutType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Layout</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">layoutType</span><span class="p">:</span> <span class="kt"><a href="../Classes/LayoutSelectorView.html">LayoutSelectorView</a></span><span class="o">.</span><span class="kt">LayoutType</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@cali@objc(cs)MainViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@cali@objc(cs)MainViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@cali@objc(cs)MainViewController(im)viewWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@cali@objc(cs)MainViewController(im)viewWillAppear:">viewWillAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@cali@objc(cs)MainViewController(im)dealloc"></a>
+                    <a name="//apple_ref/swift/Method/deinit" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@cali@objc(cs)MainViewController(im)dealloc">deinit</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">deinit</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC17didUpdateLocation33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/didUpdateLocation()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC17didUpdateLocation33_A24000BF9A239B700BB8243528C47444LLyyF">didUpdateLocation()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">private</span> <span class="kd">func</span> <span class="nf">didUpdateLocation</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC14didTapCalendar33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/didTapCalendar()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC14didTapCalendar33_A24000BF9A239B700BB8243528C47444LLyyF">didTapCalendar()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">private</span> <span class="kd">func</span> <span class="nf">didTapCalendar</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC21updateRightBarButtons33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/updateRightBarButtons()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC21updateRightBarButtons33_A24000BF9A239B700BB8243528C47444LLyyF">updateRightBarButtons()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">updateRightBarButtons</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC20updateLeftBarButtons33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/updateLeftBarButtons()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC20updateLeftBarButtons33_A24000BF9A239B700BB8243528C47444LLyyF">updateLeftBarButtons()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">updateLeftBarButtons</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC15layoutTypeImage33_A24000BF9A239B700BB8243528C47444LLSo7UIImageCSgv"></a>
+                    <a name="//apple_ref/swift/Property/layoutTypeImage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC15layoutTypeImage33_A24000BF9A239B700BB8243528C47444LLSo7UIImageCSgv">layoutTypeImage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">layoutTypeImage</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC13layoutPressed33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/layoutPressed()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC13layoutPressed33_A24000BF9A239B700BB8243528C47444LLyyF">layoutPressed()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">private</span> <span class="kd">func</span> <span class="nf">layoutPressed</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC11plusPressed33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/plusPressed()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC11plusPressed33_A24000BF9A239B700BB8243528C47444LLyyF">plusPressed()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">private</span> <span class="kd">func</span> <span class="nf">plusPressed</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC25updateNavigationItemTitle33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/updateNavigationItemTitle()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC25updateNavigationItemTitle33_A24000BF9A239B700BB8243528C47444LLyyF">updateNavigationItemTitle()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">updateNavigationItemTitle</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC14didPanCalendar33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/didPanCalendar()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC14didPanCalendar33_A24000BF9A239B700BB8243528C47444LLyyF">didPanCalendar()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">private</span> <span class="kd">func</span> <span class="nf">didPanCalendar</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC12didPanEvents33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/didPanEvents()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC12didPanEvents33_A24000BF9A239B700BB8243528C47444LLyyF">didPanEvents()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">private</span> <span class="kd">func</span> <span class="nf">didPanEvents</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC09didPanDayC033_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/didPanDayView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC09didPanDayC033_A24000BF9A239B700BB8243528C47444LLyyF">didPanDayView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">private</span> <span class="kd">func</span> <span class="nf">didPanDayView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Calendar%20view"></a>
+                <a name="//apple_ref/swift/Section/Calendar view" class="dashAnchor"></a>
+                <a href="#/Calendar%20view">
+                  <h3 class="section-name">Calendar view</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC014expandCalendarC033_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/expandCalendarView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC014expandCalendarC033_A24000BF9A239B700BB8243528C47444LLyyF">expandCalendarView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">expandCalendarView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC016collapseCalendarC033_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/collapseCalendarView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC016collapseCalendarC033_A24000BF9A239B700BB8243528C47444LLyyF">collapseCalendarView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">collapseCalendarView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UIGestureRecognizerDelegate"></a>
+                <a name="//apple_ref/swift/Section/UIGestureRecognizerDelegate" class="dashAnchor"></a>
+                <a href="#/UIGestureRecognizerDelegate">
+                  <h3 class="section-name">UIGestureRecognizerDelegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@cali@objc(cs)MainViewController(im)gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:"></a>
+                    <a name="//apple_ref/swift/Method/gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@cali@objc(cs)MainViewController(im)gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:">gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">gestureRecognizer</span><span class="p">(</span><span class="n">_</span> <span class="nv">gestureRecognizer</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="p">,</span> <span class="n">shouldRecognizeSimultaneouslyWith</span> <span class="nv">otherGestureRecognizer</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/EventListViewDelegate"></a>
+                <a name="//apple_ref/swift/Section/EventListViewDelegate" class="dashAnchor"></a>
+                <a href="#/EventListViewDelegate">
+                  <h3 class="section-name">EventListViewDelegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC09eventListC14DidScrollToDayyAA05EventfC0C0efC0_tF"></a>
+                    <a name="//apple_ref/swift/Method/eventListViewDidScrollToDay(eventListView:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC09eventListC14DidScrollToDayyAA05EventfC0C0efC0_tF">eventListViewDidScrollToDay(eventListView:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">eventListViewDidScrollToDay</span><span class="p">(</span><span class="nv">eventListView</span><span class="p">:</span> <span class="kt"><a href="../Classes/EventListView.html">EventListView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC09eventListC9DidScrollyAA05EventfC0C0efC0_tF"></a>
+                    <a name="//apple_ref/swift/Method/eventListViewDidScroll(eventListView:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC09eventListC9DidScrollyAA05EventfC0C0efC0_tF">eventListViewDidScroll(eventListView:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">eventListViewDidScroll</span><span class="p">(</span><span class="nv">eventListView</span><span class="p">:</span> <span class="kt"><a href="../Classes/EventListView.html">EventListView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/CalendarViewDelegate"></a>
+                <a name="//apple_ref/swift/Section/CalendarViewDelegate" class="dashAnchor"></a>
+                <a href="#/CalendarViewDelegate">
+                  <h3 class="section-name">CalendarViewDelegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC08calendarC21DidChangeSelectedDateyAA08CalendarC0CF"></a>
+                    <a name="//apple_ref/swift/Method/calendarViewDidChangeSelectedDate(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC08calendarC21DidChangeSelectedDateyAA08CalendarC0CF">calendarViewDidChangeSelectedDate(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">calendarViewDidChangeSelectedDate</span><span class="p">(</span><span class="n">_</span> <span class="nv">calendarView</span><span class="p">:</span> <span class="kt"><a href="../Classes/CalendarView.html">CalendarView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Layout%20selector"></a>
+                <a name="//apple_ref/swift/Section/Layout selector" class="dashAnchor"></a>
+                <a href="#/Layout%20selector">
+                  <h3 class="section-name">Layout selector</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC18showLayoutSelector33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/showLayoutSelector()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC18showLayoutSelector33_A24000BF9A239B700BB8243528C47444LLyyF">showLayoutSelector()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">showLayoutSelector</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC18hideLayoutSelector33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/hideLayoutSelector()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC18hideLayoutSelector33_A24000BF9A239B700BB8243528C47444LLyyF">hideLayoutSelector()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">hideLayoutSelector</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC024layoutSelectorBackgroundC6Tapped33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/layoutSelectorBackgroundViewTapped()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC024layoutSelectorBackgroundC6Tapped33_A24000BF9A239B700BB8243528C47444LLyyF">layoutSelectorBackgroundViewTapped()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">private</span> <span class="kd">func</span> <span class="nf">layoutSelectorBackgroundViewTapped</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/LayoutSelectorViewDelegate"></a>
+                <a name="//apple_ref/swift/Section/LayoutSelectorViewDelegate" class="dashAnchor"></a>
+                <a href="#/LayoutSelectorViewDelegate">
+                  <h3 class="section-name">LayoutSelectorViewDelegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC014layoutSelectorC9DidChangeyAA06LayoutfC0CF"></a>
+                    <a name="//apple_ref/swift/Method/layoutSelectorViewDidChange(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC014layoutSelectorC9DidChangeyAA06LayoutfC0CF">layoutSelectorViewDidChange(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">layoutSelectorViewDidChange</span><span class="p">(</span><span class="n">_</span> <span class="nv">view</span><span class="p">:</span> <span class="kt"><a href="../Classes/LayoutSelectorView.html">LayoutSelectorView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Private"></a>
+                <a name="//apple_ref/swift/Section/Private" class="dashAnchor"></a>
+                <a href="#/Private">
+                  <h3 class="section-name">Private</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC12updateLayout33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/updateLayout()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC12updateLayout33_A24000BF9A239B700BB8243528C47444LLyyF">updateLayout()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">updateLayout</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4cali18MainViewControllerC13updateWeather33_A24000BF9A239B700BB8243528C47444LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/updateWeather()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4cali18MainViewControllerC13updateWeather33_A24000BF9A239B700BB8243528C47444LLyyF">updateWeather()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">updateWeather</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-08-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
