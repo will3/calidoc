@@ -1,83 +1,6 @@
 {
   "warnings": [
     {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 12,
-      "symbol": "AccessibilityIdentifier",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 14,
-      "symbol": "AccessibilityIdentifier.mainView",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 16,
-      "symbol": "AccessibilityIdentifier.createEventView",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 18,
-      "symbol": "AccessibilityIdentifier.plusButton",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 20,
-      "symbol": "AccessibilityIdentifier.titleInput",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 22,
-      "symbol": "AccessibilityIdentifier.tickButton",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 24,
-      "symbol": "AccessibilityIdentifier.crossButton",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 26,
-      "symbol": "AccessibilityIdentifier.eventCell",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 28,
-      "symbol": "AccessibilityIdentifier.eventListView",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 30,
-      "symbol": "AccessibilityIdentifier.eventTableView",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/Accessability.swift",
-      "line": 32,
-      "symbol": "AccessibilityIdentifier.todayButton",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/will3/cali/cali/AppDelegate.swift",
       "line": 15,
       "symbol": "AppDelegate",
@@ -142,49 +65,21 @@
     },
     {
       "file": "/Users/will3/cali/cali/CalendarCollectionViewCell.swift",
-      "line": 14,
-      "symbol": "CalendarCollectionViewCell.Background",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/CalendarCollectionViewCell.swift",
-      "line": 15,
-      "symbol": "CalendarCollectionViewCell.Background.white",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/CalendarCollectionViewCell.swift",
-      "line": 16,
-      "symbol": "CalendarCollectionViewCell.Background.grey",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/CalendarCollectionViewCell.swift",
-      "line": 17,
-      "symbol": "CalendarCollectionViewCell.Background.today",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/will3/cali/cali/CalendarCollectionViewCell.swift",
-      "line": 40,
+      "line": 44,
       "symbol": "CalendarCollectionViewCell.bounds",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/will3/cali/cali/CalendarCollectionViewCell.swift",
-      "line": 70,
+      "line": 74,
       "symbol": "CalendarCollectionViewCell.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/will3/cali/cali/CalendarCollectionViewCell.swift",
-      "line": 144,
+      "line": 148,
       "symbol": "CalendarCollectionViewCell.awakeFromNib()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
